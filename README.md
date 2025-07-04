@@ -119,3 +119,15 @@ base = 0.63 if gender == 1 else 0.51
 ```
 
 ### Start synthesizing Personas
+```bash
+python3 model/dataset_generator.py
+python3 persona_generator.py
+python3 answerer.py
+```
+The programm will create the files
+```
+|data/erweiterter_persona_datensatz.csv
+|data/persona_results.json
+|data/persona_beer_answers.json
+```
+Final file is the last one it will hold your answered survey.
