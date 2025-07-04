@@ -34,8 +34,8 @@ Adjust the parameters in ```models/dataset_generator.py``` to your requirements.
 * Gender probabilities ```genders = np.random.choice([1, 2], size=n, p=[0.xxx, 0.xxx]```
 * Origins probabilities ```origin = np.random.choice([1, 2], size=n, p=[0.xxx, 0.xxx]```
 * Relationship status</br>
-```
-bash for age in ages:
+```python 
+for age in ages:
     if 16 <= age <= 20:
         status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])
     elif 21 <= age <= 25:
@@ -47,7 +47,7 @@ bash for age in ages:
 * Education depends on which educational degrees you would like to use</br> 
 ```python 
 education_values = [1, 2, 3, 4, 5]
-education_probs = np.array([0.025, 0.163, 0.307, 0.074, 0.432])
+education_probs = np.array([0.xxx, 0.xxx, 0.xxx, 0.xxx, 0.xxx])
 education_probs /= education_probs.sum()
 education = np.random.choice(education_values, size=n, p=education_probs) 
 ```
