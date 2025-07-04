@@ -9,6 +9,9 @@ Large language models (LLMs) have recently gained attention for their ability to
 |----|example_encodings.csv
 |----|example_namelist.csv
 |----|example_persona_format.json
+|----|example_answer_format.json
+|----|example_input_question.json
+|----|example_output_format.json
 |src
 |----|helpers
 |----|----|tool_box.py
@@ -21,12 +24,15 @@ Large language models (LLMs) have recently gained attention for their ability to
 |requirements.txt
 ```
 ## How to use
+### Setup Python environment
 Install requirements.txt in e.g. pipenv
 ```bash
 pipenv install -r requirements.txt
 pipenv shell
 ```
 
+### Adjust persona Parameter
+Create the files like the examples in ```models/examples_xxx.xxx```
 Adjust the parameters in ```models/dataset_generator.py``` to your requirements. The encodings for some values are shown in ```data/example_encodings.csv```. The given parameters are:
 * Needed survey base 
 ```python
@@ -112,4 +118,4 @@ base = 0.63 if gender == 1 else 0.51
         base += 0.1
 ```
 
-
+### Start synthesizing Personas
