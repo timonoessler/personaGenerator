@@ -33,15 +33,15 @@ Adjust the parameters in ```models/dataset_generator.py``` to your requirements.
 * Age ranges ``` age_ranges = {"key":list(range(xx,xx),...}```
 * Gender probabilities ```genders = np.random.choice([1, 2], size=n, p=[0.xxx, 0.xxx]```
 * Origins probabilities ```origin = np.random.choice([1, 2], size=n, p=[0.xxx, 0.xxx]```
-* Relationship status</br>```for age in ages:
-    if 16 <= age <= 20:\\
-        status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])\\
-    elif 21 <= age <= 25:\\
-        status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])\\
-    else:  # 26–30\\
-        status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])\\
+* Relationship status</br>```for age in ages:</br>
+    if 16 <= age <= 20:</br>
+        status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])</br>
+    elif 21 <= age <= 25:</br>
+        status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])</br>
+    else:  # 26–30</br>
+        status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])</br>
     relationship_status.append(status)```
-* Education depends on which educational degrees you would like to use ```education_values = [1, 2, 3, 4, 5]
-education_probs = np.array([0.025, 0.163, 0.307, 0.074, 0.432])
-education_probs /= education_probs.sum()
+* Education depends on which educational degrees you would like to use</br> ```education_values = [1, 2, 3, 4, 5]</br>
+education_probs = np.array([0.025, 0.163, 0.307, 0.074, 0.432])</br>
+education_probs /= education_probs.sum()</br>
 education = np.random.choice(education_values, size=n, p=education_probs) ```
