@@ -1,0 +1,291 @@
+{
+  "Frage 1": {
+    "question": "Wie häufig trinken Sie grundsätzlich alkoholfreies oder alkoholhaltiges Bier bzw. bierhaltige Getränke?",
+    "options": {
+      "1": "täglich",
+      "2": "mehrmals pro Woche",
+      "3": "mehrmals im Monat",
+      "4": "einmal im Monat",
+      "5": "seltener als ein mal im Monat"
+    }
+  },
+  "Frage 2": {
+    "question": "In welcher Situation trinken Sie gewöhnlich Bier bzw. bierhaltige Getränke?",
+    "situations": {
+      "Situation 1": "in Gesellschaft bei Freunden/Familie",
+      "Situation 2": "auf privaten Partys oder Feiern",
+      "Situation 3": "zuhause beim Essen",
+      "Situation 4": "zuhause zur Entspannung",
+      "Situation 5": "bei öffentlichen Veranstaltungen (Sport, Kultur, Musik etc.)",
+      "Situation 6": "in Bars, Restaurants, Pubs, Clubs etc.",
+      "Situation 7": "im Urlaub im Hotel, am Strand etc."
+    },
+    "options": {
+      "1": "nie",
+      "2": "gelegentlich",
+      "3": "häufig",
+      "-99": "keine Angabe"
+    }
+  },
+  "Frage 3": {
+    "question": "Nennen Sie uns Ihre bevorzugte(n) Lieblingsmarke(n) für Bier bzw. bierhaltige Getränke.",
+    "type": "Freitext"
+  },
+  "Frage 4": {
+        "question": "Welche Einkaufsstätten bevorzugen Sie in der Regel für den Kauf von Bier bzw. bierhaltigen Getränken?",
+        "locations": {
+            "1": "Supermarkt/Verbrauchermarkt/Discounter",
+            "2": "Getränkefachhandel/-abholmärkte",
+            "3": "Tankstelle",
+            "4": "Gastronomie/Hotellerie",
+            "5": "Kiosk/Späti/Büdchen/24x7 Store",
+            "6": "direkt in der Brauerei",
+            "7": "Mensa/Kantine/Verpflegungsautomat",
+            "8": "Lieferservice/Online-Lebensmittelhandel"
+        },
+        "options": {
+            "1": "nie",
+            "2": "gelegentlich",
+            "3": "häufig",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 5": {
+        "question": "Wie wichtig ist Ihnen, dass die von Ihnen konsumierten Biere bzw. bierhaltigen Getränke alkoholfrei sind?",
+        "options": {
+            "1": "völlig unwichtig",
+            "2": "eher unwichtig",
+            "3": "indifferent",
+            "4": "eher wichtig",
+            "5": "äußerst wichtig",
+            "-99": "keine Angabe"
+        }
+},
+"Frage 6": {
+        "question": "Bitte geben Sie an, inwiefern die nachfolgenden Aussagen auf Sie zutreffen.",
+        "statements": {
+            "1": "Ich besitze ein großes Interesse an Bier oder bierhaltigen Getränken.",
+            "2": "Bier und bierhaltige Getränke spielen eine große Rolle in meinem Leben.",
+            "3": "Es macht mir großen Spaß ein Bier oder bierhaltiges Getränk zu konsumieren.",
+            "4": "Der Konsum von Bier oder bierhaltigen Getränken ist sehr wichtig für mich.",
+            "5": "Der Konsum von Bier oder bierhaltigen Getränken ist sehr vorteilhaft für mich.",
+            "6": "Auf den Konsum von Bier oder bierhaltigen Getränken kann ich auf keinen Fall verzichten."
+        },
+        "options": {
+            "1": "trifft überhaupt nicht zu",
+            "2": "trifft eher nicht zu",
+            "3": "teils teils",
+            "4": "trifft eher zu",
+            "5": "trifft voll und ganz zu",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 7": {
+        "question": "Bitte geben Sie an, inwiefern die nachfolgenden Aussagen auf Sie zutreffen.",
+        "statements": {
+            "1": "Gesunde Ernährung ist mir sehr wichtig.",
+            "2": "Getränke sollen umweltfreundlich hergestellt und vertrieben werden.",
+            "3": "Ich probiere sehr gerne neue Produkte oder Geschmacksrichtungen aus.",
+            "4": "Für biologisch produzierte Getränke bin ich bereit, einen adäquaten Mehrpreis zu zahlen.",
+            "5": "Es sollen keine Inhaltsstoffe tierischen Ursprungs verwendet werden.",
+            "6": "Ich möchte beim Konsum völlig auf Alkohol verzichten."
+        },
+        "options": {
+            "1": "trifft überhaupt nicht zu",
+            "2": "trifft eher nicht zu",
+            "3": "teils teils",
+            "4": "trifft eher zu",
+            "5": "trifft voll und ganz zu",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 8": {
+        "question": "Wie stark beeinflussen die nachfolgenden Faktoren Ihre Kaufentscheidung von Bier bzw. bierhaltigen Getränken?",
+        "factors": {
+            "1": "Geschmack des Getränks",
+            "2": "Geruch/Aroma des Getränks",
+            "3": "Kaufpreis des Getränks",
+            "4": "Bekanntheit der Marke",
+            "5": "Nachhaltige Produktion des Getränks",
+            "6": "Herkunftsregion der Marke",
+            "7": "Design der Verpackung",
+            "8": "Verpackungsgröße/-form",
+            "9": "Aktionsangebot im Handel",
+            "10": "Alkoholgehalt des Getränks",
+            "11": "Empfehlung von Dritten",
+            "12": "Verfügbarkeit im Handel"
+        },
+        "options": {
+            "1": "sehr geringer Einfluss",
+            "2": "geringer Einfluss",
+            "3": "mittlerer Einfluss",
+            "4": "starker Einfluss",
+            "5": "sehr starker Einfluss",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 9": {
+        "question": "Was sind Ihre bevorzugt gekauften Sorten für Bier bzw. für bierhaltige Getränke?",
+        "types": {
+            "1": "Alkoholfreies Bier oder alkoholfreie Biermischgetränke",
+            "2": "Weizenbier/Weissbier/Berliner Weisse",
+            "3": "Kölsch",
+            "4": "Altbier (z. B. Diebels)",
+            "5": "Pale Ale (IPA etc.)",
+            "6": "Stout (z. B. Guinness)",
+            "7": "Märzen/Export/Kellerbier/Zwickel",
+            "8": "Radler/Biermischgetränke (z. B. Cola-Bier)",
+            "9": "Pils/Pilsner",
+            "10": "Bockbier/Schwarzbier/Rauchbier (z. B. Köstritzer)",
+            "11": "Helles oder Lager (z. B. Augustiner)",
+            "12": "Craft Beer"
+        },
+        "options": {
+            "1": "sehr niedrige Präferenz",
+            "2": "niedrige Präferenz",
+            "3": "mittlere Präferenz",
+            "4": "hohe Präferenz",
+            "5": "sehr hohe Präferenz",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 10": {
+        "question": "Welche Präferenzen in Bezug auf den Alkoholgehalt von Bier oder bierhaltigen Getränken haben Sie?",
+        "variants": {
+            "1": "Alkoholfreies Bier ohne Alkohol (0%)",
+            "2": "Alkoholfreies Bier mit sehr geringem Alkoholgehalt (bis max. 0,5%)",
+            "3": "Normales Bier mit Alkohol (> 0,5%)"
+        },
+        "options": {
+            "1": "sehr niedrige Präferenz",
+            "2": "niedrige Präferenz",
+            "3": "mittlere Präferenz",
+            "4": "hohe Präferenz",
+            "5": "sehr hohe Präferenz",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 11": {
+        "question": "Welche Geschmacksrichtungen bevorzugen Sie?",
+        "flavors": {
+            "1": "rauchiger Geschmack",
+            "2": "herber-hopfiger Geschmack",
+            "3": "süßlich-malziger Geschmack",
+            "4": "fruchtiger Geschmack",
+            "5": "Geschmack nach Kräutern",
+            "6": "Geschmack nach Gewürzen",
+            "7": "bitterer Geschmack",
+            "8": "säuerlicher Geschmack",
+            "9": "Zitrusgeschmack"
+        },
+        "options": {
+            "1": "sehr niedrige Präferenz",
+            "2": "niedrige Präferenz",
+            "3": "mittlere Präferenz",
+            "4": "hohe Präferenz",
+            "5": "sehr hohe Präferenz",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 12": {
+        "question": "Welche Art von werblicher Kommunikation spricht Sie am meisten an?",
+        "channels": {
+            "1": "Werbung im Fernsehen, Radio oder Streaming-TV",
+            "2": "Werbung auf den Social Media-Kanälen der Hersteller oder Händler",
+            "3": "Empfehlungen durch Influencer:innen in Social Media",
+            "4": "Werbung in Zeitschriften oder Illustrierten",
+            "5": "Außenwerbung auf Plakaten/Veranstaltungen/Festivals",
+            "6": "Werbung in Sportstätten oder Stadien",
+            "7": "Hauswurfsendungen von Handelsunternehmen",
+            "8": "E-Mail-Werbung oder Werbung in Apps",
+            "9": "Angebote vor Ort im Ladengeschäft"
+        },
+        "options": {
+            "1": "gar nicht",
+            "2": "schwach",
+            "3": "mittel",
+            "4": "stark",
+            "5": "sehr stark",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 13": {
+        "question": "Welchem Geschlecht ordnen Sie sich zu?",
+        "options": {
+            "1": "männlich",
+            "2": "weiblich",
+            "3": "divers",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 14": {
+        "question": "In welchem Jahr sind Sie geboren?",
+        "options": {
+            "1": "nach 2008",
+            "2": "2008",
+            "3": "2007",
+            "4": "2006",
+            "5": "2005",
+            "6": "2004",
+            "7": "2003",
+            "8": "2002",
+            "9": "2001",
+            "10": "2000",
+            "11": "1999",
+            "12": "1998",
+            "13": "1997",
+            "14": "1996",
+            "15": "1995",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 15": {
+        "question": "In welchem Bundesland wohnen Sie derzeit?",
+        "options": {
+            "1": "Baden-Württemberg",
+            "2": "Bayern",
+            "3": "Berlin",
+            "4": "Brandenburg",
+            "5": "Bremen",
+            "6": "Hamburg",
+            "7": "Hessen",
+            "8": "Mecklenburg-Vorpommern",
+            "9": "Niedersachsen",
+            "10": "Nordrhein-Westfalen",
+            "11": "Rheinland-Pfalz",
+            "12": "Saarland",
+            "13": "Sachsen",
+            "14": "Sachsen-Anhalt",
+            "15": "Schleswig-Holstein",
+            "16": "Thüringen",
+            "17": "nicht in Deutschland",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 16": {
+        "question": "Wie ist Ihre aktuelle Beschäftigungssituation?",
+        "options": {
+            "1": "Angestellte / Angestellter",
+            "2": "Selbständige / Selbstständiger",
+            "3": "Studentin / Student",
+            "4": "Schülerin / Schüler",
+            "5": "Beamtin / Beamter",
+            "6": "Rentnerin / Rentner",
+            "7": "Hausfrau / Hausmann",
+            "8": "ohne Beschäftigung",
+            "9": "in Ausbildung / im Freiwilligendienst",
+            "-99": "keine Angabe"
+        }
+    },
+    "Frage 17": {
+        "question": "Wie ist Ihre aktuelle Wohnsituation? (Mehrfachantworten möglich)",
+        "options": {
+            "alleinlebend": [0, 1],
+            "mit Kind/Kindern lebend": [0, 1],
+            "mit Eltern/Elternteil lebend": [0, 1],
+            "mit Freund/-in bzw. Lebenspartner/-in lebend": [0, 1],
+            "mit sonstigen Personen lebend (z.B. WG)": [0, 1],
+            "Angabe": [-99]
+        }
+    }
+}

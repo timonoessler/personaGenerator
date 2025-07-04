@@ -1,0 +1,27 @@
+Kategorie,Code,Bedeutung
+Geschlecht,1,Männlich
+Geschlecht,2,Weiblich
+Herkunft,1,Stadt
+Herkunft,2,Land
+Beziehungsstatus,1,Verheiratet
+Beziehungsstatus,2,Ledig
+Bildung,1,Ohne Schulabschluss
+Bildung,2,Hauptschulabschluss
+Bildung,3,Realschulabschluss
+Bildung,4,Fachhochschulreife
+Bildung,5,Allgemeine Hochschulreife
+Erwerbstätig,1,Erwerbstätig
+Erwerbstätig,2,Nicht erwerbstätig
+Gesundheitsbewusstsein,0,Nicht gesundheitsbewusst
+Gesundheitsbewusstsein,1,Gesundheitsbewusst
+Freizeit,1,Freunde treffen
+Freizeit,2,Zeit mit der Familie verbringen
+Freizeit,3,Ausgehen
+Freizeit,4,Draußen Sport treiben
+Freizeit,5,In der Natur sein
+Freizeit,6,Shopping
+Freizeit,7,Computerspiele
+Freizeit,8,Clubbing
+Freizeit,9,Snowboard fahren
+Freizeit,10,Yoga
+Freizeit,11,Tanzen
