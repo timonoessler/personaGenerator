@@ -33,7 +33,7 @@ Adjust the parameters in ```models/dataset_generator.py``` to your requirements.
 * Age ranges ``` age_ranges = {"key":list(range(xx,xx),...}```
 * Gender probabilities ```genders = np.random.choice([1, 2], size=n, p=[0.xxx, 0.xxx]```
 * Origins probabilities ```origin = np.random.choice([1, 2], size=n, p=[0.xxx, 0.xxx]```
-* Relationship status```for age in ages:
+* Relationship status</br>```for age in ages:
     if 16 <= age <= 20:\\
         status = np.random.choice([1, 2], p=[0.xxx, 0.xxx])\\
     elif 21 <= age <= 25:\\
