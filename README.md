@@ -36,6 +36,7 @@ Create a ```config.cfg``` file and insert:
 [API_KEY]
 API_KEY:XXX
 ```
+As API key you will need a OpenAI API Key to perform the requests. 
 ### Adjust persona Parameter
 Create the files like the examples in ```models/examples_xxx.xxx```
 Adjust the parameters in ```models/dataset_generator.py``` to your requirements. The encodings for some values are shown in ```data/example_encodings.csv```. The given parameters are:
