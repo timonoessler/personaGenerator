@@ -30,7 +30,11 @@ Install requirements.txt in e.g. pipenv
 pipenv install -r requirements.txt
 pipenv shell
 ```
+### Config
+Create a ```config.cfg``` file and insert:
+```config
 
+```
 ### Adjust persona Parameter
 Create the files like the examples in ```models/examples_xxx.xxx```
 Adjust the parameters in ```models/dataset_generator.py``` to your requirements. The encodings for some values are shown in ```data/example_encodings.csv```. The given parameters are:
@@ -130,4 +134,4 @@ The programm will create the files
 |data/persona_results.json
 |data/persona_beer_answers.json
 ```
-Final file is the last one it will hold your answered survey.
+Final file is the last one, it will hold your answered survey.
