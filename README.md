@@ -33,7 +33,8 @@ pipenv shell
 ### Config
 Create a ```config.cfg``` file and insert:
 ```config
-
+[API_KEY]
+API_KEY:XXX
 ```
 ### Adjust persona Parameter
 Create the files like the examples in ```models/examples_xxx.xxx```
