@@ -12,6 +12,16 @@ Large language models (LLMs) have recently gained attention for their ability to
 |----|example_answer_format.json
 |----|example_input_question.json
 |----|example_output_format.json
+|data_exploration
+|----|app.py
+|----|clean_personas.py
+|----|data_loader.py
+|----|explore.py
+|----|extract_csv.py
+|----|meta.py
+|----|Readme.md
+|----|requirements.txt
+|----|screenshot.py
 |src
 |----|helpers
 |----|----|tool_box.py
